@@ -27,4 +27,8 @@ apt = Solution()
 
 res = apt.firstUniqChar(istr)
 
-print(f"{istr[res]} is the first non repeating character in {istr}.")
+if res >= 0:
+    print(f"{istr[res]} is the first non repeating character in {istr}.")
+else:
+    print("All characters are repeated in the given string.")    
+    
